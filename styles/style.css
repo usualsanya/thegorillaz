@@ -1,0 +1,188 @@
+@font-face {
+    font-family: "my font";
+    src: url("../assets/Bluu\ Next\ Cyrillic.otf");
+}
+
+@font-face {
+    font-family: "my font2";
+    src: url("../assets/NeutralFace.otf");
+}
+
+.container {
+    width: 100%;
+}
+
+.artist {
+    display: flex;
+    font-family: "my font";
+    color: rgb(255, 0, 0);
+    text-align: center;
+    font-size: 1661%;
+}
+
+body {
+    background-image: url("/Users/aleksandramacokina/OneDrive/css figma2/assets/Без имени-1 копия 2.png");
+    background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+    background-color: #171717;
+}
+
+.name {
+    display: flex;
+    font-family: "my font";
+    color: rgb(255, 0, 0);
+    text-align: left;
+    font-size: 861%;
+}
+
+.year {
+    font-family: "my font2";
+    color: #d9ff00;
+    text-align: left;
+    font-size: 1061%;
+}
+
+.cover {
+    text-align: left;
+    width: 100%;
+}
+.cover img {
+    width: 70%;
+}
+
+.image1 {
+    position:relative;
+    text-align: center;
+    margin-top: 300px;
+}
+.image1 img {
+    width: 100%;
+}
+
+.smile {
+    position:absolute;
+    text-align: center;
+    margin-top: 100px;
+    
+}
+
+.smile img {
+    width: 100%;
+}
+
+.image3 {
+    text-align: left;
+    margin-top: 100px;
+}
+.image3 img {
+    width: 570px;
+}
+
+.image4 {
+    text-align: right;
+}
+.image4 img {
+    width: 813px;
+}
+
+.image5 {
+    text-align: left;
+}
+.image5 img {
+    width: 570px;
+}
+
+.image6 {
+    
+    text-align: center;
+    margin-top: 500px;
+}
+.image6 img {
+    width: 100%;
+}
+
+.par {
+    display: none;
+}
+
+.gallery {
+    
+    display: none;
+}
+
+
+
+
+
+
+
+@media only screen and (max-width: 700px) {
+    
+   
+    
+    .cover {
+        display: none;
+    }
+    
+    .image1 {
+        display: none;
+    }
+    .image3 {
+        display: none;
+    }
+    .image4 {
+        display: none;
+    }
+    .image5 {
+        display: none;
+    }
+    .image6 {
+        display: none;
+    }
+
+    .smile {
+        display: none;
+    }
+
+    .par {
+        margin-top: 500px;
+        display: flex;
+        color: black;
+        font-family: "my font2";
+        font-size: 160%;
+    }
+
+    .gallery {
+    
+        display: flex;
+        color: red;
+        font-family:Arial, Helvetica, sans-serif;
+        font-size: 160%;
+        margin-top: 500px;
+    }
+
+    .artist {
+        display:inline-flex;
+        font-family: "my font";
+        color: rgb(255, 0, 0);
+        text-align: center;
+        font-size: 600%;
+    }
+
+    .name {
+        display: flex;
+        font-family: "my font";
+        color: rgb(255, 0, 0);
+        text-align: left;
+        font-size: 361%;
+    }
+
+    .year {
+        margin-top: 200px;
+        font-family: "my font2";
+        color: #d9ff00;
+        text-align: left;
+        font-size: 1061%;
+    }
+}
